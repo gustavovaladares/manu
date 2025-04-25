@@ -1,0 +1,46 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+h1 {
+  color: #f48fb1;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Evita o transbordamento das imagens */
+  margin-top: 20px;
+}
+
+#carrossel img {
+  width: 60%;  /* Ajusta ainda mais a largura da imagem */
+  max-width: 400px;  /* Define um tamanho máximo para as imagens */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+#carrossel img:hover {
+  transform: scale(1.05);
+}
+
+#botoes-carrossel button {
+  padding: 10px 20px;
+  background-color: #f48fb1;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#botoes-carrossel button:hover {
+  background-color: #ec407a;
+}
