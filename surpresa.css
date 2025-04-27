@@ -14,14 +14,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Evita o transbordamento das imagens */
+  overflow: hidden; 
   margin-top: 20px;
 }
 
 #carrossel img {
-  width: 60%;  /* Ajusta ainda mais a largura da imagem */
-  max-width: 400px;  /* Define um tamanho máximo para as imagens */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 60%;  
+  max-width: 400px;  
+  height: auto; 
   margin: 10px;
   border-radius: 10px;
   transition: transform 0.3s ease;

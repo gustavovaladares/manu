@@ -28,9 +28,9 @@ btnAnterior.addEventListener('click', () => {
   mostrarImagem();
 });
 
-// Inicializa a primeira imagem
+
 mostrarImagem();
 
-// Acessando o áudio e ajustando o volume
+
 const audio = document.querySelector('audio');
-audio.volume = 0.1; // Volume baixo, pode ser ajustado entre 0 e 1
+audio.volume = 0.1; 
